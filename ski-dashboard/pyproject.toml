@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ski-dashboard"
+version = "0.1.0"
+description = "Ski lift & slope status scraper and Grafana dashboard"
+authors = ["Theo Jaquenoud <thjaquenoud@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.39.0"
+webdriver-manager = "^4.0.2"
+pydantic = "^2.12.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
