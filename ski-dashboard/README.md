@@ -94,42 +94,67 @@ Grafana connects directly to the database (API not required initially).
 
 
 ski-dashboard/
+
 ├── scraper/
-│ ├── base/
-│ │ ├── selenium_driver.py
-│ │ ├── scraper_base.py
-│ │ └── utils.py
-│ ├── resorts/
-│ │ ├── verbier.py
-│ │ ├── villars.py
-│ │ ├── leyson.py
-│ │ └── crans_montana.py
-│ └── run_scraper.py
-│
+
+│   ├── base/
+
+│   │   ├── selenium_driver.py
+
+│   │   ├── scraper_base.py
+
+│   │   └── utils.py
+
+│   ├── resorts/
+
+│   │   ├── verbier.py
+
+│   │   ├── villars.py
+
+│   │   ├── leyson.py
+
+│   │   └── crans_montana.py
+
+│   └── run_scraper.py
+
 ├── orchestrator/
-│ ├── scheduler.py
-│ └── tasks.py
-│
+
+│   ├── scheduler.py
+
+│   └── tasks.py
+
 ├── db/
-│ ├── schema.sql
-│ └── migrations/
-│
+
+│   ├── schema.sql
+
+│   └── migrations/
+
 ├── grafana/
-│ ├── dashboards/
-│ └── provisioning/
-│
+
+│   ├── dashboards/
+
+│   └── provisioning/
+
 ├── docker/
-│ ├── docker-compose.yml
-│ ├── grafana/
-│ └── postgres/
-│
+
+│   ├── docker-compose.yml
+
+│   ├── grafana/
+
+│   └── postgres/
+
 ├── logs/
+
 ├── config/
-│ └── settings.yaml
-│
+
+│   └── settings.yaml
+
 ├── .env
+
 ├── README.md
+
 └── requirements.txt
+
 
 
 ---
